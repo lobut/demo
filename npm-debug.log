@@ -16,10 +16,10 @@
 13 verbose lifecycle robertface@1.0.0~start: PATH: /Users/rluong/.nvm/versions/node/v6.2.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/rluong/Projects/sandbox/demo/node_modules/.bin:/Users/rluong/.nvm/versions/node/v6.2.0/bin:/Users/rluong/.nvm/versions/node/v6.2.0/bin:/Users/rluong/.rvm/gems/ruby-2.2.1/bin:/Users/rluong/.rvm/gems/ruby-2.2.1@global/bin:/Users/rluong/.rvm/rubies/ruby-2.2.1/bin:/Users/rluong/.dnx/runtimes/dnx-coreclr-darwin-x64.1.0.0-beta8/bin:/Users/rluong/.dnx/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet/bin:/usr/local/MacGPG2/bin:/Users/rluong/.rvm/bin
 14 verbose lifecycle robertface@1.0.0~start: CWD: /Users/rluong/Projects/sandbox/demo
 15 silly lifecycle robertface@1.0.0~start: Args: [ '-c',
-15 silly lifecycle   'npm-run-all --parallel open:src lint:watch test:watch' ]
+15 silly lifecycle   'npm-run-all --parallel test:watch open:src lint:watch' ]
 16 silly lifecycle robertface@1.0.0~start: Returned: code: 1  signal: null
 17 info lifecycle robertface@1.0.0~start: Failed to exec start script
-18 verbose stack Error: robertface@1.0.0 start: `npm-run-all --parallel open:src lint:watch test:watch`
+18 verbose stack Error: robertface@1.0.0 start: `npm-run-all --parallel test:watch open:src lint:watch`
 18 verbose stack Exit status 1
 18 verbose stack     at EventEmitter.<anonymous> (/Users/rluong/.nvm/versions/node/v6.2.0/lib/node_modules/npm/lib/utils/lifecycle.js:245:16)
 18 verbose stack     at emitTwo (events.js:106:13)
@@ -31,19 +31,19 @@
 18 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
 19 verbose pkgid robertface@1.0.0
 20 verbose cwd /Users/rluong/Projects/sandbox/demo
-21 error Darwin 15.4.0
+21 error Darwin 15.5.0
 22 error argv "/Users/rluong/.nvm/versions/node/v6.2.0/bin/node" "/Users/rluong/.nvm/versions/node/v6.2.0/bin/npm" "start"
 23 error node v6.2.0
 24 error npm  v3.8.9
 25 error code ELIFECYCLE
-26 error robertface@1.0.0 start: `npm-run-all --parallel open:src lint:watch test:watch`
+26 error robertface@1.0.0 start: `npm-run-all --parallel test:watch open:src lint:watch`
 26 error Exit status 1
-27 error Failed at the robertface@1.0.0 start script 'npm-run-all --parallel open:src lint:watch test:watch'.
+27 error Failed at the robertface@1.0.0 start script 'npm-run-all --parallel test:watch open:src lint:watch'.
 27 error Make sure you have the latest version of node.js and npm installed.
 27 error If you do, this is most likely a problem with the robertface package,
 27 error not with npm itself.
 27 error Tell the author that this fails on your system:
-27 error     npm-run-all --parallel open:src lint:watch test:watch
+27 error     npm-run-all --parallel test:watch open:src lint:watch
 27 error You can get information on how to open an issue for this project with:
 27 error     npm bugs robertface
 27 error Or if that isn't available, you can get their info via:
